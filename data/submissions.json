@@ -1,0 +1,110 @@
+{
+  "Loan": [
+    {
+      "timestamp": "2026-09-26T08:47:49.873Z",
+      "monthlyIncome": 130000,
+      "existingEmis": 15000,
+      "tenureYears": 5,
+      "tenureMonths": 60,
+      "interestRate": 10.5,
+      "creditScore": 740,
+      "foirPercentage": 45,
+      "maxTotalMonthlyObligation": 58500,
+      "maxAffordableEmi": 43500,
+      "maxLoanAmount": 2023830,
+      "eligibilityStatus": "High Eligibility",
+      "badgeColor": "mint",
+      "currentDtiRatio": 11.5,
+      "aiExplanation": "Under our 45% FOIR underwriting policy (based on your credit score profile), your net available monthly borrowing budget is ₹43,500. This allows you to comfortably sustain a maximum estimated loan principal of ₹20,23,830 over a 5-year tenure at 10.5% interest. Extending your loan tenure by 2-3 years could increase your total borrowing capacity by up to 20%.",
+      "sessionId": "SESS-V1LFGQK"
+    },
+    {
+      "timestamp": "2026-09-26T08:44:27.748Z",
+      "monthlyIncome": 85000,
+      "existingEmis": 12000,
+      "tenureYears": 5,
+      "tenureMonths": 60,
+      "interestRate": 10.5,
+      "creditScore": 760,
+      "foirPercentage": 50,
+      "maxTotalMonthlyObligation": 42500,
+      "maxAffordableEmi": 30500,
+      "maxLoanAmount": 1419007,
+      "eligibilityStatus": "High Eligibility",
+      "badgeColor": "mint",
+      "currentDtiRatio": 14.1,
+      "aiExplanation": "Under our 50% FOIR underwriting policy (based on your credit score profile), your net available monthly borrowing budget is ₹30,500. This allows you to comfortably sustain a maximum estimated loan principal of ₹14,19,007 over a 5-year tenure at 10.5% interest. Extending your loan tenure by 2-3 years could increase your total borrowing capacity by up to 20%.",
+      "sessionId": "SESS-0PIC2R4"
+    }
+  ],
+  "Credit": [
+    {
+      "timestamp": "2026-09-26T08:45:54.199Z",
+      "onTimePaymentPct": 99,
+      "creditUtilizationPct": 20,
+      "historyAgeYears": 6,
+      "hardInquiries": 1,
+      "activeAccounts": 5,
+      "estimatedScore": 833,
+      "band": "Excellent",
+      "bandColor": "mint",
+      "scoreBreakdown": {
+        "paymentHistoryPoints": 208,
+        "utilizationPoints": 160,
+        "historyAgePoints": 55,
+        "inquiriesPoints": 50,
+        "accountsPoints": 60
+      },
+      "aiRecommendations": "**Maintain Low Utilization**: Excellent job keeping credit utilization at 20%. Continue keeping individual card balances under 20% of limits.\n\n**Pristine Payment Track Record**: Keep up the 99% on-time record, as payment history accounts for 35% of your total credit score weight.\n\n**Maintain Inquiry Discipline**: With only 1 hard inquiry recently, your credit profile reflects strong stability to prospective lenders.",
+      "sessionId": "SESS-UXV0HFB"
+    }
+  ],
+  "EMI": [
+    {
+      "timestamp": "2026-09-26T08:46:11.374Z",
+      "principal": 1500000,
+      "interestRate": 10.5,
+      "tenureYears": 5,
+      "tenureMonths": 60,
+      "monthlyEmi": 32241,
+      "totalInterest": 434460,
+      "totalPayable": 1934460,
+      "principalPct": 78,
+      "interestPct": 22,
+      "yearlyBreakdown": [
+        {
+          "year": 1,
+          "principalPaid": 240760,
+          "interestPaid": 146132,
+          "remainingBalance": 1259240
+        },
+        {
+          "year": 2,
+          "principalPaid": 267292,
+          "interestPaid": 119600,
+          "remainingBalance": 991948
+        },
+        {
+          "year": 3,
+          "principalPaid": 296749,
+          "interestPaid": 90143,
+          "remainingBalance": 695199
+        },
+        {
+          "year": 4,
+          "principalPaid": 329452,
+          "interestPaid": 57440,
+          "remainingBalance": 365747
+        },
+        {
+          "year": 5,
+          "principalPaid": 365747,
+          "interestPaid": 21133,
+          "remainingBalance": 0
+        }
+      ],
+      "sessionId": "SESS-7X41J6I"
+    }
+  ],
+  "Tips": []
+}
